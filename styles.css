@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+html, body {
+    width: 100%;
+}
+.navbar-brand {
+    font-family: 'Yeon Sung', cursive;
+    
+}
+.navbar-brand{
+    font-size:6vh;
+    color:white;
+}
+#open {
+    background:url(images/open1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height:100vh;
+    width: 100%;
+}
+.navbar {
+    height: 100px;
+}
+p {
+    color :white;
+    font-family: 'Courgette', cursive;
+    font-size: 5vw;
+    padding-left: 2rem;
+    padding-top: 8rem;
+}
+.jet-1 {
+  text-align: center;
+}
+#about {
+    height: 70vh;
+    background: url(images/about.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}

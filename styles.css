@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
 @import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
-html, body {
+body {
     width: 100%;
 }
 .navbar-brand {
@@ -23,7 +23,7 @@ html, body {
 .navbar {
     height: 100px;
 }
-p {
+p{
     color :white;
     font-family: 'Courgette', cursive;
     font-size: 5vw;
@@ -32,11 +32,22 @@ p {
 }
 .jet-1 {
   text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-#about {
-    height: 70vh;
+#about{
+    height:100vh;
     background: url(images/about.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
+    color:white;
+    font-size:2vw;
+    text-align: right;
+    padding-right: 10px;
+    padding-top:250px;
 }
+
+
+
+   

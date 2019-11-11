@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
 .bod {
     background: url(images/8d8dcc9750d19b644853ba63a880f230.jpg);
     background-position: center;
@@ -11,4 +15,15 @@
 form {
     font-size: 26px;
     color:black;
+}
+.navbar-brand {
+    font-family: 'Yeon Sung', cursive;
+    
+}
+.navbar-brand{
+    font-size:6vh;
+    color:white;
+}
+.navbar {
+    height: 100px;
 }

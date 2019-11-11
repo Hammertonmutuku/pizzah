@@ -1,6 +1,14 @@
-body {
+.bod {
     background: url(images/8d8dcc9750d19b644853ba63a880f230.jpg);
-    background-repeat: no-repeat;
+    background-position: center;
     background-size:cover;
-    background-position: center center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    text-align: center;
+    padding-top: 50px;
+    color:white;
+}
+form {
+    font-size: 26px;
+    color:black;
 }

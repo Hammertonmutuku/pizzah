@@ -5,8 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>pizzah-mania</title>
+    <link rel="stylesheet" type="text/css" href="order.css">
+    <link rel="stylesheet" type="text/css" href="boostrap/bootstrap.css">
 </head>
 <body>
+        <div id = "open">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#790516">
+                        <a class="navbar-brand" href="index.html">Pizzah-mania</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#menu">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="order.html">Order</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+      </div>
+    <div class="bod">
+        <h1>SELECT ORDER</h1>
+        <div class = "row">
+                <div class="col-md-4 mx-auto p-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="order">Pizza type:</label>
+                            <select class="form-control" id="type">
+                                <option>Margherita</option>
+                                <option>Deluxe</option>
+                                <option>Hawaiian</option>
+                                <option>Peperoni</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="order">Pizza size:</label>
+                            <select class="form-control" id="size">
+                                <option value="1">Large---1000</option>
+                                <option value="2">Medium---800</option>
+                                <option value="3">Small---500</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="order">Pizzah crust:</label>
+                            <select class="form-control" id="crusting">
+                                <option>Cripsy</option>
+                                <option>Stuffed</option>
+                                <option>Gluten-free</option>
+                                <option>Margherita</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="order">Pizzah topping:</label>
+                            <select class="form-control" id="top">
+                                <option value="1">Pepperoni ---100</option>
+                                <option value="2">Mushrooms ---120</option>
+                                <option value="3">onions ---80</option>
+                                <option value="4">Sausage ---150</option>
+                                <option value="5">Bacon ---200</option>
+                            </select>
+                        </div>
+                        <div class="form-group" required>
+                            <label for="order">NO. OF ORDERS:</label>
+                            <input type="number" id="quantity" class="form-control" min="1" required>
+                        </div>
+                        <div class="form-group" required="">
+                            <label for="order">Delivery option:</label>
+                            <select class="form-control" id="delivery">
+                                <option value="1">No Delivery</option>
+                                <option value="2">Deliver</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-info btn-block" onclick="submit()">checkout</button>
+                        </div>
+                    </form>
+                    </div>
+                    </div>
+</div>
     
 </body>
 </html>

@@ -7,7 +7,7 @@
 - Licence
 - Contacts
 - Author
-# Akan-Name
+# PIZZAH-MANIA
 ## DESCRIPTION
 - This is a pizzah website that enables a user to order the pizza onilne.  The user is able to select the type of pizzah he or she wants,
 the toppings that he or she needs in his pizza and the number of pizzas  he or she needs to make it. The website is meant to extend the customer cover for the business.

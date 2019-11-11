@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
 @import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
 body {
     width: 100%;
 }
@@ -11,6 +12,9 @@ body {
 .navbar-brand{
     font-size:6vh;
     color:white;
+}
+p {
+    font-size: 26px;
 }
 #open {
     background:url(images/open1.jpg);
@@ -44,8 +48,20 @@ p{
     color:white;
     font-size:2vw;
     text-align: right;
+    font-family: 'Forum', cursive;
     padding-right: 10px;
-    padding-top:250px;
+    padding-top:100px;
+}
+#about > p {
+    font-size: 36px;
+    font-family: 'Forum', cursive;
+    text-align: center;
+    float: right;
+    width: 40%;
+}
+#about > h1 {
+    text-align: center;
+    font-size: 66px;
 }
 
 

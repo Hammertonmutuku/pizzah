@@ -15,7 +15,7 @@ the toppings that he or she needs in his pizza and the number of pizzas  he or s
 - You can view this site directly [here] https://hammertonmutuku.github.io/pizzah/.
 
 ## Project view
-<img src="images/pizzah-mania.jpg width=300px ">
+<img src="images/pizzah-mania.jpg" width:300px>
 
 ## Technologies Used
 - html

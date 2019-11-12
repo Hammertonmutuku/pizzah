@@ -68,6 +68,9 @@ p{
     height:300px;
     padding-top: 40px;
 }
+.bottom > h1 > p {
+   font-size: 26px;
+}
 
 
 

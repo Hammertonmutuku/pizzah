@@ -41,27 +41,27 @@ p{
 }
 #about{
     height:100vh;
-    background: url(images/about.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0 ,0.5), rgba(0, 0, 0 ,0.5)), url(images/about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color:white;
-    font-size:2vw;
     text-align: right;
     font-family: 'Forum', cursive;
     padding-right: 10px;
-    padding-top:100px;
+    padding-top:50px;
 }
 #about > p {
     font-size: 36px;
     font-family: 'Forum', cursive;
     text-align: center;
     float: right;
-    width: 40%;
+    width: 50%;
+    padding-top:60px;
 }
 #about > h1 {
     text-align: center;
     font-size: 66px;
+    color:white;
 }
 .bottom {
     background-color:#790516;
@@ -70,6 +70,35 @@ p{
 }
 .bottom > h1 > p {
    font-size: 26px;
+}
+@media (max-width: 600px) {
+    p {
+        font-size:29px;
+        padding-top:129px;
+    }
+}
+@media (max-width:600px) {
+    #about > p {
+        font-size:17px;
+        color:white;
+        padding-top:20px;
+        width: 100%;
+        text-align: center;
+        padding-right: 20px;
+    }
+}
+@media (max-width:600px) {
+    #about {
+        height:100vh;
+        background-image:linear-gradient(rgba(0, 0, 0 ,0.5), rgba(0, 0, 0 ,0.5)), url(images/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        font-family: 'Forum', cursive;
+    
+        padding-top:50px; 
+    }
 }
 
 
